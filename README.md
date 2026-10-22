@@ -6,14 +6,14 @@
   <a href="https://www.gnu.org/licenses/gpl-3.0.html">
     <img src="https://img.shields.io/badge/license-GPL-yellow.svg?style=plastic&logo=GNU&label=License">
   </a>
-  <a href="https://github.com/astra1dev/AUnlocker/actions/workflows/main.yml">
-    <img src="https://github.com/astra1dev/AUnlocker/actions/workflows/main.yml/badge.svg?event=push&style=plastic">
+  <a href="https://github.com/AstralKitsune/AUnlocker/actions/workflows/main.yml">
+    <img src="https://github.com/AstralKitsune/AUnlocker/actions/workflows/main.yml/badge.svg?event=push&style=plastic">
   </a>
   <a href="../../releases">
-    <img src="https://img.shields.io/github/downloads/astra1dev/AUnlocker/total.svg?style=plastic&color=red">
+    <img src="https://img.shields.io/github/downloads/AstralKitsune/AUnlocker/total.svg?style=plastic&color=red">
   </a>
   <a href="../../releases/latest">
-    <img src="https://img.shields.io/github/downloads/astra1dev/AUnlocker/latest/total?style=plastic">
+    <img src="https://img.shields.io/github/downloads/AstralKitsune/AUnlocker/latest/total?style=plastic">
   </a>
 </p>
 
@@ -21,6 +21,7 @@
 <b>🔓Unlock Among Us: cosmetics, account, chat and more!🎉</b>
 
 # 🎉 Features
+
 - 🎭 Cosmetics (Hats, Visors, Skins, Pets, Nameplates, Cosmicubes, Bundles)
   - Unlock all[*](/README.md#️-disclaimer)
   - Don't show any in-game
@@ -58,6 +59,7 @@
 > `💣 Unsafe` Features can get you kicked by the anti-cheat. Use them with caution.
 
 # 🔥 Releases
+
 Before you download anything, make sure your platform is supported:
 - ✅ PC / Desktop (Steam, itch.io, Epic Games, Microsoft Store, Xbox App)
 - ❌ Mobile (Google Play & App Store)
@@ -91,7 +93,9 @@ The table below lists the most recent AUnlocker release for each Among Us versio
 |      `2023.10.24`       | [v1.1.0](../../releases/tag/v1.1.0) |
 
 # 💾 Installation
+
 ## 🪟 Windows
+
 - [Download](../../releases/latest) either `AUnlocker_v*.zip` or `AUnlocker_v*_Itch.zip` depending on your edition of Among Us.
 - Extract the contents of the zip into your Among Us folder. You can find your Among Us folder like this:
   - **Steam:** Right-click Among Us in your library → <kbd>Manage</kbd> → <kbd>Browse local files</kbd>
@@ -99,11 +103,12 @@ The table below lists the most recent AUnlocker release for each Among Us versio
   - **Itch.io:** Open the Itch.io app → Right-click Among Us in your library → <kbd>Manage</kbd> → <kbd>Open folder in Explorer</kbd>.
   - **Xbox App / Microsoft Store:** Open the Xbox app → Right-click Among Us in your library → <kbd>Manage</kbd> → <kbd>Files</kbd> → <kbd>Browse...</kbd>
 - Your game folder should look like this after installation:
-<img src="https://github.com/astra1dev/AUnlocker/assets/90265231/14226f03-a003-4efc-b27b-6df53fb394d6" width=410 height=240>
+<img src="https://github.com/AstralKitsune/AUnlocker/assets/90265231/14226f03-a003-4efc-b27b-6df53fb394d6" width=410 height=240>
 
 - Launch Among Us. The first launch will take **MUCH** longer, so don't worry if you have to wait a few minutes.
 
 ## 🐧 Linux
+
 - Make sure you are running Among Us under Proton (or Wine). On Steam you can check this by right-clicking Among Us in your library → <kbd>Properties</kbd> → <kbd>Compatibility</kbd> → <kbd>Force the use of a specific Steam Play compatibility tool</kbd>. Test different Proton versions if you're having issues launching the game.
 - Check out [this guide](https://docs.bepinex.dev/articles/advanced/proton_wine.html) to get BepInEx (the framework AUnlocker is built upon) working. Alternatively, if you are using Proton with Steam, you can specify the DLL override in the launch options (right-click Among Us in your library → <kbd>Properties</kbd> → <kbd>General</kbd> → <kbd>Launch Options</kbd>): `WINEDLLOVERRIDES="winhttp.dll=n,b" %command%` Then follow the steps for Windows.
 
@@ -122,7 +127,7 @@ Requirements:
 
 ```bash
 # Clone the repository
-git clone https://github.com/astra1dev/AUnlocker
+git clone https://github.com/AstralKitsune/AUnlocker
 cd AUnlocker
 
 # Build the project
@@ -132,6 +137,7 @@ dotnet build
 The compiled DLL will be located in `src/bin/Debug/net6.0/AUnlocker.dll`. Put it into `BepInEx/plugins` and launch Among Us.
 
 # 👨‍💻 Contributing
+
 General contribution:
 - For bug reports and feature requests, [open a new issue](../../issues/new/choose)
 - If you want to add a new feature or edit / improve existing code, fork this repo and create a pull request with your changes.  ([how?](https://docs.github.com/en/get-started/exploring-projects-on-github/contributing-to-a-project))
@@ -146,6 +152,7 @@ Getting started modding Among Us:
 For more detailed contribution guidelines, read [CONTRIBUTING.md](/docs/CONTRIBUTING.md)
 
 # ⚠️ Disclaimer
+
 AUnlocker does not unlock all cosmetics **permanently**, so it does **not** add them to your account. This is because your progress is stored on the Innersloth servers. If you uninstall this mod, the cosmetics will be locked again. The cosmetics you have already unlocked, e.g. through buying a cosmicube, are **untouched** by this mod.
 
 This mod is not affiliated with Among Us or Innersloth LLC, and the content contained therein is not endorsed or otherwise sponsored by Innersloth LLC. Portions of the materials contained herein are property of Innersloth LLC. © Innersloth LLC.

@@ -19,15 +19,15 @@ Issues and Pull requests are the types of contributions we accept.
 
 ### 🐛 Issues
 
-[Issues](https://docs.github.com/en/github/managing-your-work-on-github/about-issues) are used to track tasks that contributors can help with. 
+[Issues](https://docs.github.com/en/github/managing-your-work-on-github/about-issues) are used to track tasks that contributors can help with.
 
 #### Create a new issue
 
-If you've found something that should be updated, search open issues to see if someone else has reported the same thing. If it's something new, open an issue using a [template](https://github.com/astra1dev/AUnlocker/issues/new/choose). We'll use the issue to have a conversation about the problem you want to fix.
+If you've found something that should be updated, search open issues to see if someone else has reported the same thing. If it's something new, open an issue using a [template](https://github.com/AstralKitsune/AUnlocker/issues/new/choose). We'll use the issue to have a conversation about the problem you want to fix.
 
 #### Solve an issue
 
-Scan through our [existing issues](https://github.com/astra1dev/AUnlocker/issues) to find one that interests you. You can narrow down the search using `labels` as filters. As a general rule, we don’t assign issues to anyone. If you find an issue to work on, you are welcome to open a PR with a fix.
+Scan through our [existing issues](https://github.com/AstralKitsune/AUnlocker/issues) to find one that interests you. You can narrow down the search using `labels` as filters. As a general rule, we don’t assign issues to anyone. If you find an issue to work on, you are welcome to open a PR with a fix.
 
 ### 🛠️ Pull requests
 
@@ -52,5 +52,5 @@ You should always review your own pull request first, before marking it as ready
     - [Fork the repo](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo#fork-an-example-repository) so that you can make your changes without affecting the original project until you're ready to merge them.
 
 2. Create a working branch and start with your changes!
-3. Commit the changes once you are happy with them. 
+3. Commit the changes once you are happy with them.
 4. When you're finished with the changes, create a pull request.
